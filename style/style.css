@@ -1,0 +1,143 @@
+/*font-family: 'Indie Flower', cursive;*/
+
+body {
+    font-family: 'Indie Flower', cursive;
+    background: url(../img/nat-02.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+#logo {
+    width: 70px;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;*/
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    /*background-color: rgba(0,0,0,0.4);*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+a:link {
+    /*color: red;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a:visited {
+    color: black;
+
+}
+
+a:hover {
+    color: darkred;
+    transform: scale(1.1);
+}
+
+.head {
+    text-align: right;
+    /*color: darkred;*/
+    margin-right: 140px;
+}
+
+form {
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 300px;
+    margin-right: 90px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+label {
+    font-weight: 400;
+}
+
+input, label {
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+input {
+    width: 200px;
+    height: 28px;
+    border-radius: 6px;
+    margin-left: 40px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+    border: none;
+    padding-left: 7px;
+}
+
+.btn {
+    display: flex;
+    justify-content: start;
+}
+
+.btn-apply {
+    width: 100px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btn-apply:hover {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    font-weight: 400;
+    /*transform: translateX(9px);*/
+    transform: scale(1.1) translateY(-4px) translateX(8px);
+    border: 2px solid #ddd;
+    
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: darkred;
+    width: 900px;
+    /*height: 60px;*/
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 100px;
+
+}
+ .par-text {
+     background-color: rgba(0,0,0,0.7);
+     margin: 0 auto;
+     padding: 5px;
+     width: 600px;
+     color: #fff;
+     border-radius: 100px;
+ }
